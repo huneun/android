@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--대화상자(dialog) 사용자가 메시지 전달 스낵바, 토스트가 있다
+    메시지 전달과 이어 다음 진행을을 선택할수 있게 해주는 기능-->
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="대화상자호출"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
